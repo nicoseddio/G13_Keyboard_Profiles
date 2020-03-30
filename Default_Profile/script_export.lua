@@ -1,5 +1,5 @@
 -- MirrorBoard script
---	Script_Version = {"1.01", "github.com/nikorokia/g13"}
+	Script_Version = {"1.01", "github.com/nikorokia/g13"}
 -- 	Written by Nikorokia (Nico Seddio)
 
 -- DESCRIPTION:
