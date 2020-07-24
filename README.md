@@ -46,4 +46,4 @@ becomes
 ```
 
 **Notice** that the two above lines still have duplicate `guid`s; import the new profile in _LGS_ to give it a new `guid`.  
-The name still **must be changed** to prevent overwriting the original profile as _LGS_ doesn't support profile renaming.
+The `name` still **must be changed** to prevent overwriting the original profile as _LGS_ doesn't support profile renaming.
