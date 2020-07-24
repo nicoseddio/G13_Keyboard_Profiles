@@ -36,14 +36,10 @@ Profiles are `.xml` files that can be directly edited with simple editors like N
 
 When creating/duplicating to a new profile, **be sure to change the `<profile name>` to a unique value.**
 
-Example:
-```
-<profile gpasupported="0" guid="{09D92D75-3C8C-4723-B06C-4090BCB899C0}" gkeysdk="0" launchable="1" gameid="" lastplayeddate="2020-07-21T08:30:59" lock="0" name="Default Profile">
-```
-becomes
-```
-<profile gpasupported="0" guid="{09D92D75-3C8C-4723-B06C-4090BCB899C0}" gkeysdk="0" launchable="1" gameid="" lastplayeddate="2020-07-21T08:30:59" lock="0" name="New Profile">
-```
+Example:  
+`<profile gpasupported="0" guid="{09D92D75-3C8C-4723-B06C-4090BCB899C0}" gkeysdk="0" launchable="1" gameid="" lastplayeddate="2020-07-21T08:30:59" lock="0" name="Default Profile">`  
+becomes  
+`<profile gpasupported="0" guid="{09D92D75-3C8C-4723-B06C-4090BCB899C0}" gkeysdk="0" launchable="1" gameid="" lastplayeddate="2020-07-21T08:30:59" lock="0" name="New Profile">`  
 
 **Notice** that the two above lines still have duplicate `guid`s; import the new profile in _LGS_ to give it a new `guid`.  
 The `name` still **must be changed** to prevent overwriting the original profile as _LGS_ doesn't support profile renaming.
